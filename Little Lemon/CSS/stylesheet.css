@@ -1,0 +1,200 @@
+body {
+    background: rgba(184, 178, 178, 0.7)url(background.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1.offer {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+h2 {
+    font-size: 2.3rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.mage{
+    max-width: 100%;
+    
+
+}
+.mage .image-bowl{
+    max-width: 100%;
+   object-fit: cover;
+
+}
+article h2~p{
+    color: #000000;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #c9c2c2;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    opacity: calc(-1);
+}
+
+nav ul {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+nav ul a {
+    color: #010101;
+    text-decoration: none;
+}
+
+nav ul a:active {
+    text-decoration: underline;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+section {
+    display: flex;
+    gap: 1rem 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+article h1{
+   padding-top: 2rem;
+}
+
+article  {
+    flex: 1;
+    border-radius: 1rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+article img {
+    max-width: 100%;
+}
+
+article ul {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+article a:link {
+    font-size: 1.3rem;
+    
+}
+
+
+article a:hover {
+    color: #495E57;
+}
+
+article a:active {
+    color: #EDEFEE;
+    background-color: #495E57
+}
+
+main section {
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    backdrop-filter: blur(50px);
+}
+
+#blog {
+    background-position: center;
+    color: #060606;
+    text-shadow: 1px 1px px #FFF9B0;
+    text-align: center;
+}
+ #blog{
+    box-shadow: -1px 10px 10px rgba(0,0,0,0.3);
+    transition: 1s;
+    
+}
+#blog:hover{
+    transform: scale(1.04);
+    z-index: 1;
+}
+.drop{
+    box-shadow: -1px 10px 10px rgba(0,0,0,0.3);
+    transition: 1s;
+}
+
+.drop:hover{
+    transform: scale(1.04);
+    z-index: 1;
+}
+
+#blog h1 {
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+
+footer {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 1rem;
+}
+
+footer img {
+    max-width: 50%;
+}
+
+footer p {
+    border-top: #ffffff;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+    color: #ffffff;
+}
+
+footer div {
+    flex: 1;
+}
+
+.drop .content{
+    margin: 20px;
+}
+.drop a{
+    margin: 20px;
+}
+.drop h2{
+    text-align: center;
+}
